@@ -1,10 +1,10 @@
 import React from 'react'
-import HostelComponent from '../components/HostelComponent'
+import AddDetails from '../components/AddDetails'
 
 const AddHostel = () => {
   return (
     <div>
-        
+        <AddDetails />
     </div>
   )
 }

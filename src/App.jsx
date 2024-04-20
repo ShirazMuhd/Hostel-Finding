@@ -12,12 +12,12 @@ import StudentHome from "./pages/StudentHome";
 import StudentLogin from "./pages/login/StudentLogin";
 import StudentSignup from "./pages/signup/StudentSignup";
 import { Hero } from "./components/Hero";
-import HostelList from "./components/HostelList";
 import { OwnerLogin } from "./pages/login/OwnerLogin";
 import OwnerSignup from "./pages/signup/OwnerSignup";
 import { AdminLogin } from "./pages/login/AdminLogin";
 import OwnerHome from "./pages/OwnerHome";
 import AddHostel from "./pages/AddHostel";
+import UpdateHostel from "./pages/UpdateHostel";
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/ownerhome" element={<OwnerHome />} />
           <Route path="/addhostel" element={<AddHostel />} />
+          <Route path="/updatehostels" element={<UpdateHostel />} />
         </Routes>
       </Router>
     </>
